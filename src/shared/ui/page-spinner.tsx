@@ -2,7 +2,7 @@ import React from "react";
 import Spinner from "./spinner";
 import clsx from "clsx";
 
-const PageSpinner = ({ className }: { className: string }) => {
+const PageSpinner = ({ className }: { className?: string }) => {
   return (
     <div
       className={clsx(

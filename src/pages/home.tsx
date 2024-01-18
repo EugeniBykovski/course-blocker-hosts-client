@@ -1,6 +1,6 @@
+import React from "react";
 import Header from "@/shared/ui/header";
 import { Profile } from "@/widgets/profile";
-import React from "react";
 
 export default function Home() {
   return (
